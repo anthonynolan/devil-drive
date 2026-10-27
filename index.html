@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page setup: character set, mobile scaling, title, styles -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devil Drive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Devil Drive</h1>
+    <p class="tagline">Drive Mad meets Level Devil: 28 cursed levels, 1 little car, 8 colors.</p>
+
+    <!-- The game draws everything on this canvas (see game.js) -->
+    <canvas id="game" width="960" height="540"></canvas>
+
+    <!-- How to play: shown under the game, no reading of code needed -->
+    <section class="help">
+      <h2>How to play</h2>
+      <ul>
+        <li><span class="key">&#8592;</span> <span class="key">&#8594;</span> drive (throttle tilts the car!)</li>
+        <li><span class="key">Space</span> jump - press again mid-air to DOUBLE jump!</li>
+        <li><span class="key">&#8593;</span> <span class="key">&#8595;</span> climb and dive while flying (Sky High level)</li>
+        <li><span class="key">R</span> restart the level</li>
+        <li><span class="key">N</span> skip to the next level</li>
+        <li><span class="key">M</span> mute the bleeps</li>
+        <li><span class="key">X</span> unleash your upgrades for 5 seconds (10s cooldown!)</li>
+        <li><span class="key">0</span> back to the car menu anytime</li>
+        <li><span class="key">&#8592;</span> <span class="key">&#8594;</span> pick your paint in the menu, <span class="key">4</span>-<span class="key">7</span> spend banked coins on upgrades (5 levels each, pricier every level!)</li>
+      </ul>
+      <p>Reach the checkered flag at the end of each level. Grab coins and jewels for points, shields eat one hit, and stars let you splat baddies! Full throttle tips your nose down: overcook it and you'll endo! Land upside down and you explode. And if a level has the BEAST... don't stop.</p>
+    </section>
+  </main>
+
+  <!-- Plain script, no modules or libraries: works straight from file:// -->
+  <script src="game.js"></script>
+</body>
+</html>

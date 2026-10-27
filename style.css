@@ -1,0 +1,84 @@
+/* Devil Drive page styles: dark garage, centered game, simple help box. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #140709;
+  color: #f5e6d0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px 48px;
+}
+
+main {
+  width: 960px;
+  max-width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #ff5a4e;
+}
+
+.tagline {
+  margin: 4px 0 16px;
+  color: #c9a98f;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid #7a1f1a;
+  border-radius: 10px;
+  background: #12060f;
+}
+
+.help {
+  margin-top: 16px;
+  padding: 12px 18px;
+  border: 2px solid #7a1f1a;
+  border-radius: 10px;
+  background: #200c0e;
+}
+
+.help h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #ffd23f;
+}
+
+.help ul {
+  margin: 0 0 8px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.help p {
+  margin: 0;
+  color: #c9a98f;
+}
+
+.key {
+  display: inline-block;
+  min-width: 28px;
+  text-align: center;
+  padding: 2px 8px;
+  margin-right: 4px;
+  border: 1px solid #a08a70;
+  border-bottom-width: 3px;
+  border-radius: 6px;
+  background: #33241c;
+  color: #ffe9c9;
+  font-weight: bold;
+}
